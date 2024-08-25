@@ -1,0 +1,63 @@
+html{
+    font-family: Raleway;
+}
+
+/* configuracoes do top */
+.banner{
+    display: inline-flexbox;
+    text-align: center;
+    border: 1px solid black;
+    background-image: url('./images/banner.png');
+    width: 1440px;
+    height: 605px;
+}
+
+
+/* estilizacao do top */
+.banner-content img{
+    padding-top: 27px;
+}
+
+.banner-content{
+    border: 1px solid blueviolet;
+    height: 393px;
+    width: 510px;
+    margin: auto;
+}
+.banner-content h1{
+    font-size: 50px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content p{
+
+    font-size: 20px;
+    font-weight: 400;
+    /* color: #fff; */
+}
+
+.banner-content button{
+    width: 326px;
+    height: 57px;
+    gap: 31px;
+    background-color: transparent;
+    border-width: 2px ;
+    border-style: solid;
+    border-image: linear-gradient(to right, #3BA1CD, #1572B7) 1 ;
+    
+}
+
+.banner-content button:hover{
+    background-color: rgba(240, 248, 255, 0.233);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-width: 3.5px;
+}
+
+header{
+    background: -webkit-linear-gradient(#000000, #31A8DD);
+    
+}
